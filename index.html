@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ALFAGAMING — Media Gaming & Edukasi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- PERFORMANCE: Preconnect untuk resource eksternal -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://images.unsplash.com">
+
+    <!-- PERFORMANCE: Preload font dengan display=swap -->
+    <link rel="preload" as="style"
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+        media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
+    </noscript>
+
+    <!-- SEO & Google Discover -->
+    <meta name="description"
+        content="ALFAGAMING adalah media gaming modern yang membahas strategi, mindset, dan edukasi bermain game untuk gamer pemula hingga intermediate.">
+    <meta name="robots" content="max-image-preview:large">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Open Graph (Discover & Share) -->
+    <link rel="icon" type="image/svg+xml" href="/image/favicon.svg">
+    <meta property="og:title" content="ALFAGAMING — Media Gaming & Edukasi">
+    <meta property="og:description"
+        content="Insight, strategi, dan panduan gaming yang relevan untuk gamer yang ingin berkembang.">
+    <meta property="og:image" content="/image/hero-discover.jpg">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ALFAGAMING — Media Gaming & Edukasi">
+    <meta name="twitter:description"
+        content="Insight, strategi, dan panduan gaming yang relevan untuk gamer yang ingin berkembang.">
+    <meta name="twitter:image" content="/image/hero-discover.jpg">
+
+    <!-- CSS dengan preload -->
+    <link rel="preload" href="style.css" as="style">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ===============================
+         UTILITY NAV
+    ================================ -->
+    <div class="utility-nav">
+        <a href="https://t.ly/alfa-sukses">Login</a>
+        <a href="https://t.ly/reg.alfa">Daftar</a>
+        <a href="/about.html">Join Komunitas</a>
+    </div>
+
+
+    <!-- ===============================
+         HIGHLIGHT BAR
+    ================================ -->
+    <div class="highlight-bar">
+        <div class="highlight-bar-content">
+            <span>
+                🔥 ALFAGAMING — Media Gaming, Insight & Edukasi untuk Gamer Berkembang
+            </span>
+            <span>
+                📢 Join Komunitas Discord Kami untuk Turnamen Bulan Ini!
+            </span>
+            <span>
+                🚀 Tips Push Rank: Jangan Main Solo di Jam Rawan!
+            </span>
+        </div>
+    </div>
+
+    <!-- ===============================
+         MAIN NAV
+    ================================ -->
+    <header class="main-nav">
+        <a href="/index.html" class="logo">
+            ALFAGAMING
+        </a>
+        <nav>
+            <a href="/index.html" class="active">Beranda</a>
+            <a href="/index.html#artikel">Artikel</a>
+            <a href="#">Panduan</a>
+            <a href="/about.html">Tentang</a>
+        </nav>
+    </header>
+
+    <!-- ===============================
+         HERO / DISCOVER
+    ================================ -->
+    <section class="hero">
+        <!-- SLOT GAMBAR DISCOVER - Prioritas tinggi untuk LCP -->
+        <img src="/image/hero-discover.jpg" alt="ALFAGAMING Media Gaming dan Edukasi" fetchpriority="high"
+            decoding="async">
+
+        <div class="hero-text">
+            <div class="brand-tagline">
+                Media Gaming • Insight • Edukasi
+            </div>
+
+            <h1>
+                Media Gaming untuk Player<br>
+                yang Ingin Berkembang
+            </h1>
+
+            <p>
+                ALFAGAMING merupakan media gaming modern yang membahas strategi bermain,
+                mindset sehat, dan pengalaman gaming yang berkelanjutan.
+                Dirancang untuk gamer pemula hingga intermediate yang ingin naik level ke pro player.
+            </p>
+        </div>
+    </section>
+
+    <!-- ===============================
+         ARTICLE LIST
+    ================================ -->
+    <section id="artikel" class="article-list">
+        <h2>Artikel Terbaru</h2>
+
+        <p class="section-desc">
+            Temukan insight, panduan, dan opini seputar dunia gaming — mulai dari
+            strategi bermain, manajemen waktu, hingga sudut pandang gamer modern.
+        </p>
+
+        <!-- RENDER DARI JSON -->
+        <div id="articles">
+            <!-- Loading Indicator -->
+            <div id="loading" class="loading-spinner">
+                <div class="spinner"></div>
+                <p>Memuat konten terbaru...</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===============================
+         FOOTER
+    ================================ -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h4>ALFAGAMING</h4>
+                <p>Media gaming positif untuk gamer berkembang.</p>
+
+                <div class="disclaimer-box">
+                    <strong>Disclaimer:</strong> ALFAGAMING adalah media edukasi dan komunitas gaming. Kami TIDAK
+                    menyediakan layanan perjudian, slot, atau taruhan dalam bentuk apapun. Seluruh konten bertujuan
+                    untuk edukasi strategi dan hiburan.
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <h4>Eksplorasi</h4>
+                <a href="/index.html">Beranda</a>
+                <a href="/about.html">Tentang Kami</a>
+                <a href="/article.html">Artikel</a>
+            </div>
+
+            <div class="footer-social">
+                <h4>Komunitas</h4>
+                <a href="#">Instagram</a>
+                <a href="https://discord.gg/pDaTcFq4">Discord</a>
+                <a href="#">Youtube</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2026 ALFAGAMING. All rights reserved.
+        </div>
+    </footer>
+
+    <!-- ===============================
+         BOTTOM NAV (ALL DEVICE)
+    ================================ -->
+    <nav class="bottom-nav">
+        <a href="/index.html">
+            Home
+        </a>
+        <a href="#artikel">
+            Artikel
+        </a>
+        <a href="/index.html">
+            Update
+        </a>
+        <a href="/index.html">
+            Komunitas
+        </a>
+    </nav>
+
+    <!-- ===============================
+         SCRIPT RENDER JSON (defer = non-blocking)
+    ================================ -->
+    <script src="render.js" defer></script>
+
+</body>
+
+</html>

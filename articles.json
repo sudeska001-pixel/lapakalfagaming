@@ -1,0 +1,54 @@
+[
+    {
+        "id": "kesalahan-fatal-push-rank",
+        "title": "3 Kesalahan Fatal Push Rank yang Bikin Stuck di Epic (Dan Solusinya)",
+        "excerpt": "Skill individu saja tidak cukup. Pelajari rotasi, manajemen wave, dan timing yang sering diabaikan player publik.",
+        "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=2070&auto=format&fit=crop",
+        "date": "2026-01-06",
+        "author": "Coach Alfa",
+        "category": "Strategi",
+        "content": [
+            "Banyak pemain terjebak di rank yang sama bukan karena kurang jago, tapi karena <strong>kurang paham makro game</strong>. Push rank di tier tinggi membutuhkan pemahaman rotasi, manajemen wave, dan pengambilan objektif yang tepat.",
+            "<h3>1. Buta Map & Rotasi</h3>",
+            "Kesalahan terbesar adalah terlalu fokus pada lane sendiri. <strong>Selalu perhatikan minimap</strong> setiap 2-3 detik. Jika musuh hilang dari lane, segera berikan sinyal 'Missing' ke teman tim.",
+            "<h3>2. Manajemen Wave yang Buruk</h3>",
+            "Jangan asal clear minion! Pelajari teknik <em>freezing lane</em> saat unggul, dan <em>slow push</em> saat ingin melakukan rotasi objektif (Turtle/Lord). Ini memaksa musuh merespon wave kita.",
+            "<h3>3. Mental Mudah Down</h3>",
+            "Di ALFAGAMING, kami menekankan: <strong>Mental > Mekanikal</strong>. Tahu kapan harus berhenti saat <em>lose streak</em> adalah skill. Istirahat sejenak, evaluasi replay, dan kembali dengan pikiran jernih."
+        ],
+        "link": "/article.html?id=kesalahan-fatal-push-rank"
+    },
+    {
+        "id": "rahasia-komunitas-untung",
+        "title": "Rahasia Komunitas Gaming: Cara Networking jadi Peluang Karir",
+        "excerpt": "Gaming bukan tempat buang waktu. Temukan circle yang positif, bangun tim, dan ubah hobi jadi skill bernilai tinggi.",
+        "image": "/image/article/alfagaming-community.jpg",
+        "date": "2026-01-05",
+        "author": "Analyst Team",
+        "category": "Komunitas",
+        "content": [
+            "ALFAGAMING dibangun sebagai komunitas gaming yang tidak hanya membahas permainan, tetapi juga <strong>pola pikir dan strategi</strong>. Fokus utama kami adalah membantu member berkembang secara konsisten.",
+            "<h3>Konsep 'Value' Bukan Judi</h3>",
+            "Konsep 'Cuan' di sini bukan soal judi/slot, tapi <strong>Value Skill</strong>. Member mendapatkan:",
+            "<ul><li>✅ Insight Meta & Strategi Turnamen</li><li>✅ Networking dengan Caster & Pro Player</li><li>✅ Pengalaman Manajemen Tim Esports</li></ul>",
+            "Dengan komunitas yang solid dan mindset yang tepat, ALFAGAMING menjadi tempat bertumbuh bagi gamer yang ingin serius berkembang."
+        ],
+        "link": "/article.html?id=rahasia-komunitas-untung"
+    },
+    {
+        "id": "karir-esports-tanpa-jago",
+        "title": "Gaji Tinggi di Esports Tanpa Jago Mekanik? Ini Caranya!",
+        "excerpt": "Pro player bukan satu-satunya jalan. Pelajari peran Analyst, Manager, dan Caster yang gajinya tak kalah menggiurkan.",
+        "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=2071&auto=format&fit=crop",
+        "date": "2026-01-03",
+        "author": "HR Esports",
+        "category": "Karir",
+        "content": [
+            "Industri esports berkembang pesat. Jika kamu merasa skill bermainmu belum cukup untuk jadi pro player tier 1, jangan berkecil hati. Ekosistem ini membutuhkan banyak peran pendukung yang vital.",
+            "<h3>Opsi Karir Non-Player:</h3>",
+            "<ul><li><strong>Analyst:</strong> Menganalisa data match dan strategi lawan.</li><li><strong>Manager:</strong> Mengurus jadwal dan kebutuhan tim.</li><li><strong>Content Creator:</strong> Membangun personal branding dan hiburan.</li></ul>",
+            "Bergabung dengan komunitas seperti ALFAGAMING adalah langkah awal yang tepat untuk networking. Temukan mentor, ikuti turnamen kecil, dan pelajari seluk-beluk industri ini."
+        ],
+        "link": "/article.html?id=karir-esports-tanpa-jago"
+    }
+]

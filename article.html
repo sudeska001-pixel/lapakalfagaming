@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <title id="page-title">Artikel — ALFAGAMING</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- SEO basic (akan diisi JS) -->
+    <meta name="description" id="meta-description" content="Artikel ALFAGAMING">
+    <link rel="icon" type="image/svg+xml" href="/image/favicon.svg">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ===============================
+         MAIN NAV
+    ================================ -->
+    <header class="main-nav">
+        <div class="logo">ALFAGAMING</div>
+        <nav>
+            <a href="/">Beranda</a>
+            <a href="/#artikel">Artikel</a>
+        </nav>
+    </header>
+
+    <!-- ===============================
+         ARTICLE DETAIL
+    ================================ -->
+    <main class="article-detail">
+
+        <!-- CATEGORY -->
+        <span id="article-category" class="article-category"></span>
+
+        <!-- TITLE -->
+        <h1 id="article-title"></h1>
+
+        <!-- META -->
+        <div class="article-meta">
+            <span id="article-author"></span>
+            <span>•</span>
+            <time id="article-date"></time>
+        </div>
+
+        <!-- FEATURE IMAGE -->
+        <img id="article-image" alt="" class="article-image" loading="lazy">
+
+        <!-- CONTENT -->
+        <article id="article-content" class="article-content"></article>
+
+    </main>
+
+    <!-- ===============================
+         FOOTER
+    ================================ -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h4>ALFAGAMING</h4>
+                <p>Media gaming positif untuk gamer berkembang.</p>
+
+                <div class="disclaimer-box">
+                    <strong>Disclaimer:</strong> ALFAGAMING adalah media edukasi dan komunitas gaming. Kami TIDAK
+                    menyediakan layanan perjudian, slot, atau taruhan dalam bentuk apapun. Seluruh konten bertujuan
+                    untuk edukasi strategi dan hiburan.
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <h4>Eksplorasi</h4>
+                <a href="/index.html">Beranda</a>
+                <a href="/about.html">Tentang Kami</a>
+                <a href="/index.html#artikel">Artikel</a>
+            </div>
+
+            <div class="footer-social">
+                <h4>Komunitas</h4>
+                <a href="#">Instagram</a>
+                <a href="https://discord.gg/pDaTcFq4">Discord</a>
+                <a href="#">Youtube</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2026 ALFAGAMING. All rights reserved.
+        </div>
+    </footer>
+
+    <!-- ===============================
+         BOTTOM NAV
+    ================================ -->
+    <nav class="bottom-nav">
+        <a href="/index.html">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                    d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 101.06-1.06l-8.689-8.69a2.25 2.25 0 00-3.182 0l-8.69 8.69a.75.75 0 001.061 1.06l8.69-8.69z" />
+                <path
+                    d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z" />
+            </svg>
+            Beranda
+        </a>
+        <a href="/index.html#artikel">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                <path fill-rule="evenodd"
+                    d="M3 3a1 1 0 00-1 1v12a1 1 0 102 0V4a1 1 0 00-1-1zm10.293 9.293a1 1 0 001.414 1.414l3-3a1 1 0 000-1.414l-3-3a1 1 0 10-1.414 1.414L14.586 9H7a1 1 0 100 2h7.586l-1.293 1.293zM3 17a1 1 0 100 2h18a1 1 0 100-2H3z"
+                    clip-rule="evenodd" />
+            </svg>
+            Artikel
+        </a>
+    </nav>
+
+    <!-- SCRIPT -->
+    <script src="article.js"></script>
+</body>
+
+</html>
