@@ -239,7 +239,59 @@ img {
     color: var(--text-muted);
     font-size: 1.125rem;
     max-width: 600px;
-    margin: 0 auto;
+    margin: 0 auto 32px;
+}
+
+.hero-actions {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.hero-actions .btn-primary {
+    animation: pulsateGlow 3s ease-in-out infinite;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-actions .btn-primary::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(
+        45deg,
+        transparent,
+        rgba(255, 255, 255, 0.3),
+        transparent
+    );
+    transform: rotate(45deg);
+    animation: shineLoop 4s infinite;
+}
+
+@keyframes pulsateGlow {
+    0%, 100% {
+        box-shadow: 0 4px 15px rgba(37, 99, 235, 0.3);
+        transform: translateY(0);
+    }
+    50% {
+        box-shadow: 0 8px 30px rgba(37, 99, 235, 0.6);
+        transform: translateY(-4px);
+    }
+}
+
+@keyframes shineLoop {
+    0% {
+        left: -100%;
+        top: -100%;
+    }
+    20%, 100% {
+        left: 100%;
+        top: 100%;
+    }
 }
 
 /* ===============================
